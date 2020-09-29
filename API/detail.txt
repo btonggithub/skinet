@@ -3,3 +3,7 @@ dotnet ef migrations add InitialCreate -o Data/Migrations
 
 #update migrations
 dotnet ef database update
+
+#
+dotnet ef database drop -p Infrastructure -s API
+dotnet ef migrations remove -p Infrastructure -s API
