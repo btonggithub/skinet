@@ -26,3 +26,13 @@ src\app>ng g c shop/product-details --module=shop --skip-tests
 
 # error message dialog
 client>npm install ngx-toastr
+
+npm install --save xng-breadcrumb
+
+# theme https://bootswatch.com/ 
+npm install bootswatch
+
+#https://themestr.app/
+
+#NgxSpinnerService loading
+npm install ngx-spinner
