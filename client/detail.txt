@@ -17,3 +17,7 @@ If you get a prompt, click “Yes”
 =====
 ng add ngx-bootstrap
 npm install font-awesome
+
+ng g c shop --flat --skip-tests
+ng g s shop --skip-tests --flat
+src\app\shared\components>ng g c paging-header --skip-tests
