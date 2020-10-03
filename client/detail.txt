@@ -23,3 +23,6 @@ ng g s shop --skip-tests --flat
 src\app\shared\components>ng g c paging-header --skip-tests
 ng g c home --skip-tests --flat
 src\app>ng g c shop/product-details --module=shop --skip-tests
+
+# error message dialog
+client>npm install ngx-toastr
