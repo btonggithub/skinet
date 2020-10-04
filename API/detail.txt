@@ -25,3 +25,5 @@ Tools ให้ช่วยในการ lookup
 # clear data
 redis-cli.exe
 127.0.0.1:6379> flushall
+
+dotnet ef migrations add IdentityInitial -p Infrastructure -s API -o Identity/Migrations -c AppIdentityDbContext
