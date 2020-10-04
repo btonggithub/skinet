@@ -11,3 +11,17 @@ dotnet ef migrations remove -p Infrastructure -s API
 # add package Swashbuckle.as
 Swashbuckle.AspNetCore.SwaggerGen
 Swashbuckle.AspNetCore.SwaggerUI
+
+# https://redis.io/topics/quickstart
+
+# redis 
+# https://www.chocolatey.org/install
+ต้องทำการ run ไว้ก่อน ถึงใช้งานได้ในตอนนี้
+redis-server.exe 
+
+# app manage redis
+Tools ให้ช่วยในการ lookup
+
+# clear data
+redis-cli.exe
+127.0.0.1:6379> flushall
