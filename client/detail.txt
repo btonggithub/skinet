@@ -36,3 +36,12 @@ npm install bootswatch
 
 #NgxSpinnerService loading
 npm install ngx-spinner
+
+# uuid
+npm install uuid
+
+# create sub module
+ng g m checkout
+ng g m checkout-routing --flat
+ng g s checkout --flat --skip-tests
+ng g c checkout --flat --skip-tests
