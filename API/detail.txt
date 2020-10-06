@@ -30,3 +30,10 @@ dotnet ef migrations add IdentityInitial -p Infrastructure -s API -o Identity/Mi
 
 # RegularExpression format
 https://regexlib.com/
+
+dotnet ef migrations add OrderEntityAdded -p Infrastructure -s API -c StoreContext
+dotnet ef database drop -p Infrastructure -s API -c StoreContext
+dotnet ef migrations remove -p Infrastructure -s API -c StoreContext
+
+
+
