@@ -15,7 +15,7 @@ namespace Infrastructure.Data.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     ShortName = table.Column<string>(nullable: true),
                     DeliveryTime = table.Column<string>(nullable: true),
-                    Sescription = table.Column<string>(nullable: true),
+                    Description = table.Column<string>(nullable: true),
                     Price = table.Column<double>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>

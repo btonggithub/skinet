@@ -28,7 +28,7 @@ namespace Infrastructure.Data.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("Sescription")
+                    b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ShortName")
